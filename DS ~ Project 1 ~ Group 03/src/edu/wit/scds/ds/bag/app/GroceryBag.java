@@ -251,11 +251,11 @@ public final class GroceryBag implements Comparable<GroceryBag>
      * <p>
      * our heuristics are:
      * <ul>
-     * <li>rule 1:
-     * <li>rule 2:
-     * <li>rule 3:
-     * <li>rule 4:
-     * <li>rule 5:
+     * <li>rule 1: Breakable can't go with very heavy items
+     * <li>rule 2: Perishables can't go with non-perishables
+     * <li>rule 3: Hard items can't go with soft items
+     * <li>rule 4: Large items can't go with small items
+     * <li>rule 5: Rigid can't go with soft items
      * </ul>
      * <p>
      * note: these checks are bi-directional
