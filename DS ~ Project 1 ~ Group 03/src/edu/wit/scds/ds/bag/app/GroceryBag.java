@@ -85,7 +85,7 @@ import java.util.Objects ;
  *     <li>remove deprecated {@code getRemainingItemsAvailable()}
  *     </ul>
  *
- * @author Your Name // TODO
+ * @author Jason Mansour and Michael Foley // TODO
  *
  * @version 4.1 2025-09-24 complete the implementation
  *
